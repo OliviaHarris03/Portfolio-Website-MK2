@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Mont';
+    src: url('../fonts/Mont.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'AlteHaasGrotesk';
+    src: url('../fonts/AlteHaasGrotesk.ttf') format('truetype');
+}
