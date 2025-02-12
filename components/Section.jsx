@@ -17,8 +17,15 @@ function Section(props) {
                 backgroundColor: Colors.GetThemeBasedColor('background', props.theme),
                 color: Colors.GetThemeBasedColor('text', props.theme),
                 fontFamily: 'AlteHaasGrotesk',
-                padding: '3rem'
+                padding: '3rem',
+                paddingTop: '1rem',
+                height: '100svh',
+                scrollSnapAlign: 'start'
             }}>
+                <p style={{
+                    fontSize: '7rem',
+                    fontFamily: 'Mont'
+                }}>{props.heading}</p>
                 {props.children}
             </div>
         </ThemeContext.Provider>
